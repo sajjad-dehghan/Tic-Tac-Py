@@ -1,3 +1,43 @@
+<!-- visual-showroom:start -->
+<p align="center">
+  <img src="docs/showroom/readme-banner.svg" alt="Tic-Tac-Py — repository cover" width="100%">
+</p>
+
+<p align="center">
+  <strong>Tic-Tac-Py</strong><br>
+  SMALL GAMES / REAL PLAY
+</p>
+
+<p align="center">
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/tic-tac-py"><strong>Explore the showroom ↗</strong></a> ·
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/play/tic-tac-py/"><strong>Try the browser edition ↗</strong></a> ·
+  <a href="#implementation--original-documentation">Setup &amp; implementation ↓</a>
+</p>
+
+Terminal tic-tac-toe in Python. Play a friend, or a computer that wins when it can, blocks you when it has to, and otherwise takes the best square.
+
+## Visual tour
+
+[![Actual new browser edition · JavaScript port of the original Python rules](docs/showroom/readme-view-1.jpg)](https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/tic-tac-py)
+
+<p align="center">
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/tic-tac-py"><img src="docs/showroom/readme-view-2.jpg" alt="Two-player mode selection" width="48%"></a>
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/tic-tac-py"><img src="docs/showroom/readme-view-3.jpg" alt="Actual round completion and winner" width="48%"></a>
+</p>
+
+1. Actual new browser edition · JavaScript port of the original Python rules
+2. Two-player mode selection
+3. Actual round completion and winner
+
+Real captures or owner-supplied images, not generated product mockups. Demo/local data and edition boundaries are documented below.
+
+## Implementation & original documentation
+
+The existing run instructions, architecture, limitations and credits are preserved below.
+
+---
+<!-- visual-showroom:end -->
+
 # Tic-Tac-Py
 
 ## Browser gameplay gallery
