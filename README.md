@@ -1,6 +1,29 @@
 # Tic-Tac-Py
 
+## Browser gameplay gallery
+
+![Two-player mode](docs/showroom/tic-two-player.jpg)
+![Completed round and winner](docs/showroom/tic-result.jpg)
+
+Actual browser edition captures, 2026-10-07; a JavaScript port, not a live Python backend. [Showroom](https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/tic-tac-py).
+
 A terminal Tic-Tac-Toe game in Python. Play against a friend or against a rule-based computer opponent.
+
+## New browser edition
+
+A minimal, playable browser frontend is included in `web/`. It supports the original two-player and rule-based computer modes, win/draw detection and starting another round. The JavaScript engine follows the Python game's exact move priority: win, block, corners, center, edges. This is a browser port, not a Python server; `src/main.py` is unchanged.
+
+[Play the browser edition](https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/play/tic-tac-py/)
+
+![Actual browser gameplay captured on October 7, 2026](docs/showroom/browser-gameplay.jpg)
+
+To run the frontend locally with Python 3 (no extra packages):
+
+```bash
+python -m http.server 8080 --directory web
+```
+
+Open `http://localhost:8080/`. Use Tab and Enter/Space to play with a keyboard. The image above is a screenshot of actual gameplay, not an illustration. The original terminal instructions follow.
 
 ## Features
 
